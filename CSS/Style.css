@@ -14,8 +14,8 @@ body {
 
 .text {
     position: absolute;
-    top: 4vw;
-    left: 7vw;
+    top: 6vw;
+    left: 6.5vw;
     color: #111112;
 }
 
@@ -27,7 +27,7 @@ body {
     z-index: -2;
 }
 
-img {
+.nika {
     width: 100%;
     height: auto;
     opacity: 100;
@@ -36,7 +36,7 @@ img {
 }
 
 h1 {
-    font-size: 7vw;
+    font-size: 6.75vw;
 }
 
 h2 {
@@ -78,4 +78,18 @@ p {
     margin-block-end: 2em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
+}
+
+.navigationbar input[type=text] {
+    float: right;
+    /* padding: 6px; */
+    /* margin-top: 1vw; */
+    margin-right: 5vw;
+    border: none;
+    font-size: 1vw;
+    text-decoration-color: #333333;
+}
+
+.dots {
+    margin-top: 1vw;
 }
