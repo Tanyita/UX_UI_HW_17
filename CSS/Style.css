@@ -1,95 +1,100 @@
-body {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1vw;
-    background: rgb(250, 247, 249);
-}
-
-.navigation {
-    color: #333333;
-    float: left;
-    text-decoration-color: #333333;
-    text-decoration: none;
-    font-size: 1vw;
-}
-
-.text {
-    position: absolute;
-    top: 6vw;
-    left: 6.5vw;
-    color: #111112;
-}
-
-.heroimage {
-    width: 100%;
-    height: auto;
-    opacity: 100;
-    position: relative;
-    z-index: -2;
-}
-
-.nika {
-    width: 100%;
-    height: auto;
-    opacity: 100;
-    position: relative;
-    z-index: -1;
-}
-
-h1 {
-    font-size: 6.75vw;
-}
-
-h2 {
-    font-size: 4vw;
-    margin-block-start: 0.50em;
-    margin-block-end: 0.30em;
-}
-
-h3 {
-    font-size: 4vw;
-}
-
-h5 {
-    font-size: 1vw;
-    color: #366EFF;
-}
-
-h6 {
-    font-size: 1vw;
-    color: #366EFF;
-}
-
-nav {
-    padding: 1vw;
-    background-color: white;
-    position: sticky;
-    top: 0;
-    width: 100%;
-}
-
-a {
-    margin-left: 4vw;
-    color: #333333;
-}
-
-p {
-    font-size: 1vw;
-    margin-block-start: 0.5em;
-    margin-block-end: 2em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-}
-
-.navigationbar input[type=text] {
-    float: right;
-    /* padding: 6px; */
-    /* margin-top: 1vw; */
-    margin-right: 5vw;
-    border: none;
-    font-size: 1vw;
-    text-decoration-color: #333333;
-}
-
-.dots {
-    margin-top: 1vw;
-}
+        body {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 1vw;
+            background: rgb(250, 247, 249);
+        }
+        
+        .navigation {
+            color: #333333;
+            float: left;
+            text-decoration-color: #333333;
+            text-decoration: none;
+            font-size: 1vw;
+            text-align: left;
+        }
+        
+        .text {
+            position: absolute;
+            top: 6vw;
+            left: 6.5vw;
+            color: #111112;
+        }
+        
+        .heroimage {
+            width: 100%;
+            height: auto;
+            opacity: 100;
+            position: relative;
+            z-index: -2;
+        }
+        
+        .nika {
+            width: 100%;
+            height: auto;
+            opacity: 100;
+            position: relative;
+            z-index: -1;
+        }
+        
+        h1 {
+            font-size: 6.75vw;
+        }
+        
+        h2 {
+            font-size: 4vw;
+            margin-block-start: 0.50em;
+            margin-block-end: 0.30em;
+        }
+        
+        h3 {
+            font-size: 4vw;
+        }
+        
+        h5 {
+            font-size: 1vw;
+            color: #366EFF;
+        }
+        
+        h6 {
+            font-size: 1vw;
+            color: #366EFF;
+        }
+        
+        nav {
+            padding: 1vw;
+            background-color: white;
+            position: sticky;
+            top: 0;
+            width: 100%;
+        }
+        
+        a {
+            margin-left: 4vw;
+            color: #333333;
+        }
+        
+        p {
+            font-size: 1vw;
+            margin-block-start: 0.5em;
+            margin-block-end: 2em;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+        }
+        
+        .navigationbar input[type=text] {
+            float: right;
+            /* padding: 6px; */
+            /* margin-top: 1vw; */
+            margin-right: 5vw;
+            border: none;
+            font-size: 1vw;
+            text-decoration-color: #333333;
+        }
+        
+        .navigationbar {
+            align-items: center;
+        }
+        
+        ol {
+            margin-left: 4vw;
+        }
