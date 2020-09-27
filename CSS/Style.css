@@ -71,6 +71,7 @@
         a {
             margin-left: 4vw;
             color: #333333;
+            font-weight: medium;
         }
         
         p {
@@ -97,4 +98,15 @@
         
         ol {
             margin-left: 4vw;
+        }
+        
+        .sculpture {
+            position: absolute;
+            top: 10vw;
+            right: 2vw;
+            width: 50%;
+        }
+        
+        input {
+            font: 400 13.3333px Montserrat;
         }
